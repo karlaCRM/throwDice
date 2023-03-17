@@ -24,8 +24,8 @@ export class AppComponent {
     this.diceRight = `../assets/img/dice${this.numberTwo}.png`;
     if(this.diceLeft === this.diceRight){
       Swal.fire(
+        `${this.numberOne} =  ${this.numberTwo} `,
         'You Win',
-        '⭐, 🔥'
       )
     }
 
