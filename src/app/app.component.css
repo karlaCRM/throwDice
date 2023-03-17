@@ -1,0 +1,15 @@
+.img{
+    width: 9em;
+    height:9em;
+    background-color: red;
+    border-radius: 13px;
+}
+
+.elementsDices{
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    gap:1em;
+    flex-wrap: wrap;
+
+}
